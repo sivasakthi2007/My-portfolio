@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Siva Sakthi - Computer Science Engineering Student, Developer & Product Builder. Explore portfolio, projects, skills, and contact information. ApnoAI Internship Task 1.">
+    <meta name="author" content="Siva Sakthi">
+    <title>Siva Sakthi | Developer & Product Builder Portfolio</title>
+
+    <!-- Google Fonts Preconnect & Inter / Space Grotesk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#home" class="skip-link">Skip to main content</a>
+
+    <!-- Sticky Navigation Bar -->
+    <header class="navbar-wrapper">
+        <nav class="navbar" aria-label="Main Navigation">
+            <a href="#home" class="logo" aria-label="Siva Sakthi Portfolio Home">
+                <span class="logo-text">SAKTHI</span><span class="logo-accent">.</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="nav-links" role="menubar">
+                <li role="none"><a href="#home" class="nav-link active" role="menuitem">Home</a></li>
+                <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+                <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+                <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+                <li role="none"><a href="#services" class="nav-link" role="menuitem">Services</a></li>
+                <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+            </ul>
+
+            <!-- Nav Controls (Theme Toggle & Hamburger) -->
+            <div class="nav-controls">
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle" class="theme-toggle" aria-label="Switch between dark and light mode" title="Toggle Theme">
+                    <span class="toggle-icon-wrap">
+                        <!-- Sun Icon (shown in dark mode) -->
+                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <!-- Moon Icon (shown in light mode) -->
+                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </span>
+                </button>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-background-decorations" aria-hidden="true">
+                <div class="ambient-glow glow-1"></div>
+                <div class="ambient-glow glow-2"></div>
+                <div class="grid-overlay"></div>
+            </div>
+
+            <div class="hero-container">
+                <div class="hero-content reveal">
+                    <div class="hero-badge">
+                        <span class="status-indicator"></span>
+                        <span>Computer Science Student &amp; Developer</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Siva Sakthi</span>.
+                    </h1>
+
+                    <p class="hero-subtitle">
+                        Computer Science Engineering student passionate about technology, software development and building solutions for real-world problems.
+                    </p>
+
+                    <p class="hero-description">
+                        I enjoy building digital products, exploring new technologies and turning real-world problems into practical software solutions.
+                    </p>
+
+                    <!-- Tech interest badges -->
+                    <div class="hero-tags">
+                        <span class="tag">Web Development</span>
+                        <span class="tag">Software Development</span>
+                        <span class="tag">Artificial Intelligence</span>
+                        <span class="tag">Product Building</span>
+                    </div>
+
+                    <!-- CTA Buttons -->
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore My Projects</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Let's Connect</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Initials-based Developer Monogram Badge -->
+                <div class="hero-visual reveal" aria-hidden="true">
+                    <div class="monogram-card">
+                        <div class="card-glow"></div>
+                        <div class="monogram-inner">
+                            <div class="monogram-symbol">SS</div>
+                            <div class="monogram-meta">
+                                <span class="mono-code">B.E. CSE &bull; Third Year</span>
+                                <span class="mono-sub">Paavai Engineering College</span>
+                            </div>
+                            <div class="code-bracket-decor">
+                                <code>&lt;builder-mode :active="true" /&gt;</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Down Indicator -->
+            <a href="#about" class="scroll-indicator" aria-label="Scroll down to About section">
+                <span class="scroll-mouse">
+                    <span class="scroll-wheel"></span>
+                </span>
+                <span class="scroll-text">Scroll to explore</span>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section container">
+            <div class="section-header reveal">
+                <span class="section-badge">About Me</span>
+                <h2 class="section-title">Background &amp; Mindset</h2>
+                <p class="section-subtitle">
+                    A look into my academic journey, core values, and passion for software development.
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <!-- Main Narrative Card -->
+                <div class="about-card main-about-card reveal">
+                    <div class="card-icon-header">
+                        <div class="icon-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <h3>Who I Am</h3>
+                    </div>
+                    <p class="about-text">
+                        I am a third-year Computer Science Engineering student at Paavai Engineering College. I enjoy learning new technologies, developing web applications and exploring solutions to real-world problems.
+                    </p>
+                    <p class="about-text">
+                        My journey in technology is driven by a deep curiosity for how software systems work and how thoughtful digital tools can make everyday tasks easier for communities and businesses.
+                    </p>
+                    <div class="highlight-quote">
+                        <span class="quote-bar"></span>
+                        <p>&ldquo;Learning by building real-world projects.&rdquo;</p>
+                    </div>
+                </div>
+
+                <!-- Education Card -->
+                <div class="about-card reveal">
+                    <div class="card-icon-header">
+                        <div class="icon-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                            </svg>
+                        </div>
+                        <h3>Education</h3>
+                    </div>
+                    <div class="education-details">
+                        <h4 class="edu-degree">B.E. Computer Science and Engineering</h4>
+                        <p class="edu-college">Paavai Engineering College</p>
+                        <span class="edu-year-badge">Third Year &bull; Current</span>
+                        <p class="edu-desc">
+                            Focused on foundational computer science principles including algorithms, data structures, database management, and object-oriented programming.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Technical & Product Interests Card -->
+                <div class="about-card reveal">
+                    <div class="card-icon-header">
+                        <div class="icon-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Technical Interests</h3>
+                    </div>
+                    <ul class="interest-list">
+                        <li>
+                            <strong>Web &amp; Software Development:</strong> Crafting responsive interfaces and learning modern frontend workflows.
+                        </li>
+                        <li>
+                            <strong>Artificial Intelligence:</strong> Exploring intelligent tools and understanding practical AI integration.
+                        </li>
+                        <li>
+                            <strong>Problem Solving:</strong> Breaking down real-world complexity into modular, maintainable software logic.
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Product Building & Mindset Card -->
+                <div class="about-card reveal">
+                    <div class="card-icon-header">
+                        <div class="icon-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                                <polyline points="2 17 12 22 22 17"></polyline>
+                                <polyline points="2 12 12 17 22 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Product Building Mindset</h3>
+                    </div>
+                    <p class="about-text">
+                        I am passionate about startup building and identifying product bottlenecks. Rather than building theoretical demos, I focus on understanding user pain points—such as transparent pricing for agricultural producers or accessible learning during offline scenarios.
+                    </p>
+                    <div class="personality-chips">
+                        <span class="chip">Curious</span>
+                        <span class="chip">Innovative</span>
+                        <span class="chip">Practical</span>
+                        <span class="chip">Ambitious</span>
+                        <span class="chip">Technology-focused</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section container alt-bg">
+            <div class="section-header reveal">
+                <span class="section-badge">Technical Stack</span>
+                <h2 class="section-title">Skills &amp; Technologies</h2>
+                <p class="section-subtitle">
+                    Technologies I have learned and actively use to build software applications. Presented honestly as working and learning skills.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Category 1: Programming Languages -->
+                <div class="skill-category-card reveal">
+                    <div class="category-header">
+                        <div class="category-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="category-title">Programming</h3>
+                            <p class="category-desc">Core problem solving and logic</p>
+                        </div>
+                    </div>
+                    <div class="skill-chips-list">
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">C</span>
+                        </div>
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">Java</span>
+                            <span class="skill-level-tag">Basics</span>
+                        </div>
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-level-tag">Basics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2: Frontend Development -->
+                <div class="skill-category-card reveal">
+                    <div class="category-header">
+                        <div class="category-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="3" y1="9" x2="21" y2="9"></line>
+                                <line x1="9" y1="21" x2="9" y2="9"></line>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="category-title">Frontend</h3>
+                            <p class="category-desc">Web interfaces and user experience</p>
+                        </div>
+                    </div>
+                    <div class="skill-chips-list">
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">HTML5</span>
+                        </div>
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">CSS3</span>
+                        </div>
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3: Tools & Platforms -->
+                <div class="skill-category-card reveal">
+                    <div class="category-header">
+                        <div class="category-icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="category-title">Tools &amp; Platforms</h3>
+                            <p class="category-desc">Ecosystem, hosting and tooling</p>
+                        </div>
+                    </div>
+                    <div class="skill-chips-list">
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">GitHub</span>
+                        </div>
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">VS Code</span>
+                        </div>
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">Supabase</span>
+                        </div>
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">Vercel</span>
+                        </div>
+                        <div class="skill-badge">
+                            <span class="skill-dot"></span>
+                            <span class="skill-name">Flutter</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section id="projects" class="section container">
+            <div class="section-header reveal">
+                <span class="section-badge">Project Showcase</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">
+                    Real-world problems explored through practical software engineering, web platforms, and system concepts.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: UZHAVAN360 -->
+                <article class="project-card reveal" data-project-id="uzhavan360">
+                    <div class="project-card-header">
+                        <div class="project-category-meta">
+                            <span class="project-category">Agritech / Farmer Technology</span>
+                            <span class="status-badge status-working">Working Prototype</span>
+                        </div>
+                        <h3 class="project-title">Uzhavan360</h3>
+                    </div>
+
+                    <p class="project-short-desc">
+                        A farmer-focused digital platform designed to improve coordination between farmers, FPOs and buyers.
+                    </p>
+
+                    <div class="project-problem-box">
+                        <strong>Problem addressed:</strong> Market price does not always represent the amount a farmer finally receives after transport, loading, commissions, wastage and other deductions.
+                    </div>
+
+                    <div class="project-feature-tags">
+                        <span class="feature-tag">Harvest Aggregation</span>
+                        <span class="feature-tag">Net-Return Visibility</span>
+                        <span class="feature-tag">Order Coordination</span>
+                        <span class="feature-tag">Logistics Tracking</span>
+                    </div>
+
+                    <div class="project-tech-stack">
+                        <span class="tech-pill">Web Platform</span>
+                        <span class="tech-pill">Vercel</span>
+                        <span class="tech-pill">Dashboard</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <button class="btn btn-outline view-details-btn" data-project="uzhavan360" aria-label="View Uzhavan360 project details">
+                            <span>View Details</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
+                        </button>
+                        <a href="https://uzhavan360.vercel.app/dashboard" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" aria-label="Open verified Uzhavan360 live dashboard in a new tab">
+                            <span>Live Demo</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 2: NEARKART -->
+                <article class="project-card reveal" data-project-id="nearkart">
+                    <div class="project-card-header">
+                        <div class="project-category-meta">
+                            <span class="project-category">Retail Tech / Hyperlocal Commerce</span>
+                            <span class="status-badge status-dev">In Development</span>
+                        </div>
+                        <h3 class="project-title">NearKart</h3>
+                    </div>
+
+                    <p class="project-short-desc">
+                        A hyperlocal commerce and demand-intelligence platform designed for small neighbourhood retailers.
+                    </p>
+
+                    <div class="project-problem-box">
+                        <strong>Problem addressed:</strong> Small shops need practical ways to understand stock movement and make better inventory decisions without complicated daily stock management.
+                    </div>
+
+                    <div class="project-feature-tags">
+                        <span class="feature-tag">Inventory Workflows</span>
+                        <span class="feature-tag">Stock Ledger</span>
+                        <span class="feature-tag">Reorder Support</span>
+                        <span class="feature-tag">Demand Insights</span>
+                    </div>
+
+                    <div class="project-tech-stack">
+                        <span class="tech-pill">Flutter Web</span>
+                        <span class="tech-pill">Supabase</span>
+                        <span class="tech-pill">Inventory Engine</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <button class="btn btn-outline view-details-btn" data-project="nearkart" aria-label="View NearKart project details">
+                            <span>View Details</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 3: CAMPUSFLOW -->
+                <article class="project-card reveal" data-project-id="campusflow">
+                    <div class="project-card-header">
+                        <div class="project-category-meta">
+                            <span class="project-category">EdTech / Adaptive Connectivity</span>
+                            <span class="status-badge status-concept">Project Concept / Dev</span>
+                        </div>
+                        <h3 class="project-title">CampusFlow</h3>
+                    </div>
+
+                    <p class="project-short-desc">
+                        An adaptive connectivity system designed to improve access to college learning materials in low-connectivity environments.
+                    </p>
+
+                    <div class="project-problem-box">
+                        <strong>Problem addressed:</strong> Students may face connectivity limitations and intermittent access when trying to retrieve critical online educational resources.
+                    </div>
+
+                    <div class="project-feature-tags">
+                        <span class="feature-tag">Local Caching</span>
+                        <span class="feature-tag">Store-and-Forward Sync</span>
+                        <span class="feature-tag">NOW/LOCAL/LATER</span>
+                        <span class="feature-tag">Offline Access</span>
+                    </div>
+
+                    <div class="project-tech-stack">
+                        <span class="tech-pill">Campus-Local Delivery</span>
+                        <span class="tech-pill">Caching Logic</span>
+                        <span class="tech-pill">Deferred Sync</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <button class="btn btn-outline view-details-btn" data-project="campusflow" aria-label="View CampusFlow project details">
+                            <span>View Details</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Project 4: SECURITY CARD -->
+                <article class="project-card reveal" data-project-id="securitycard">
+                    <div class="project-card-header">
+                        <div class="project-category-meta">
+                            <span class="project-category">Retail Tech / Transaction Verification</span>
+                            <span class="status-badge status-concept">Concept / Exploration</span>
+                        </div>
+                        <h3 class="project-title">Security Card</h3>
+                    </div>
+
+                    <p class="project-short-desc">
+                        A reusable card-based retail transaction reconciliation concept exploring how shopping, billing and exit verification can be connected.
+                    </p>
+
+                    <div class="project-problem-box">
+                        <strong>Problem addressed:</strong> The need for seamless linkage between in-store shopping events, billing records, and loss-prevention verification without friction.
+                    </div>
+
+                    <div class="project-feature-tags">
+                        <span class="feature-tag">Card Identification</span>
+                        <span class="feature-tag">Event Linkage</span>
+                        <span class="feature-tag">Reconciliation Logic</span>
+                        <span class="feature-tag">Exit Verification</span>
+                    </div>
+
+                    <div class="project-tech-stack">
+                        <span class="tech-pill">Transaction Architecture</span>
+                        <span class="tech-pill">Verification Logic</span>
+                        <span class="tech-pill">Concept Model</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <button class="btn btn-outline view-details-btn" data-project="securitycard" aria-label="View Security Card project details">
+                            <span>View Details</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Services Section (ApnoAI Mandatory Section) -->
+        <section id="services" class="section container alt-bg">
+            <div class="section-header reveal">
+                <span class="section-badge">ApnoAI Task 1 &bull; Offerings</span>
+                <h2 class="section-title">What I Offer</h2>
+                <p class="section-subtitle">
+                    Core technical areas and development capabilities I focus on as an aspiring engineer.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1: Web Development -->
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-desc">
+                        Building responsive and user-friendly websites with clean semantic HTML, structured CSS, and modern web best practices.
+                    </p>
+                    <div class="service-features">
+                        <span>Responsive Layouts</span> &bull; <span>Cross-Device Polish</span> &bull; <span>Semantic Code</span>
+                    </div>
+                </div>
+
+                <!-- Service 2: Frontend Development -->
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Frontend Development</h3>
+                    <p class="service-desc">
+                        Creating modern user interfaces and interactive web experiences with smooth styling, accessible controls, and component thinking.
+                    </p>
+                    <div class="service-features">
+                        <span>Interactive UI</span> &bull; <span>State &amp; Modals</span> &bull; <span>Dark/Light Themes</span>
+                    </div>
+                </div>
+
+                <!-- Service 3: Programming -->
+                <div class="service-card reveal">
+                    <div class="service-icon-wrap">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M16 18l6-6-6-6"></path>
+                            <path d="M8 6l-6 6 6 6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Programming</h3>
+                    <p class="service-desc">
+                        Learning programming concepts and developing problem-solving skills in Python, C, and foundational computer science logic.
+                    </p>
+                    <div class="service-features">
+                        <span>Problem Solving</span> &bull; <span>Algorithmic Thinking</span> &bull; <span>Clean Logic</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section (ApnoAI Mandatory Section) -->
+        <section id="contact" class="section container">
+            <div class="section-header reveal">
+                <span class="section-badge">Get in Touch</span>
+                <h2 class="section-title">Let's Build Something Together.</h2>
+                <p class="section-subtitle">
+                    Have an interesting idea or want to collaborate? Feel free to connect with me.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Information Column -->
+                <div class="contact-info-card reveal">
+                    <h3>Contact Information</h3>
+                    <p class="contact-card-sub">
+                        Feel free to reach out for collaboration, project discussions, or technology conversations.
+                    </p>
+
+                    <div class="contact-methods">
+                        <!-- GitHub Profile Link -->
+                        <a href="https://github.com/sivasakthi2007" target="_blank" rel="noopener noreferrer" class="contact-method-item">
+                            <div class="method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                </svg>
+                            </div>
+                            <div class="method-details">
+                                <span class="method-label">GitHub</span>
+                                <span class="method-value">github.com/sivasakthi2007</span>
+                            </div>
+                            <span class="method-arrow">&rarr;</span>
+                        </a>
+
+                        <!-- Email Placeholder & Functional mailto Link -->
+                        <a href="mailto:YOUR_EMAIL@gmail.com" class="contact-method-item">
+                            <div class="method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="method-details">
+                                <span class="method-label">Email</span>
+                                <span class="method-value">YOUR_EMAIL@gmail.com</span>
+                            </div>
+                            <span class="method-arrow">&rarr;</span>
+                        </a>
+
+                        <!-- Academic Details -->
+                        <div class="contact-method-item non-interactive">
+                            <div class="method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="method-details">
+                                <span class="method-label">Location &amp; Institution</span>
+                                <span class="method-value">Paavai Engineering College, Tamil Nadu, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Message Form -->
+                <div class="contact-form-card reveal">
+                    <h3>Send a Direct Note</h3>
+                    <p class="contact-card-sub">
+                        Compose your message below. This will prepare a direct mail for quick connection.
+                    </p>
+
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="contact-name">Your Name</label>
+                            <input type="text" id="contact-name" name="name" required placeholder="e.g. Alex Johnson" autocomplete="name">
+                            <span class="field-error" id="name-error">Please enter your name.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-email">Your Email</label>
+                            <input type="email" id="contact-email" name="email" required placeholder="name@example.com" autocomplete="email">
+                            <span class="field-error" id="email-error">Please enter a valid email address.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-subject">Subject</label>
+                            <input type="text" id="contact-subject" name="subject" required placeholder="Project collaboration / Inquiry">
+                            <span class="field-error" id="subject-error">Please enter a subject.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" name="message" rows="4" required placeholder="Share your message, thoughts or proposal..."></textarea>
+                            <span class="field-error" id="message-error">Please enter your message.</span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Open in Email Client</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                        <div id="form-feedback" class="form-feedback" role="alert" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-text">SAKTHI</span><span class="logo-accent">.</span>
+                    </a>
+                    <p class="footer-tagline">
+                        Computer Science Engineering Student &bull; Developer &bull; Product Builder
+                    </p>
+                    <p class="footer-subtext">
+                        Designed &amp; built with semantic HTML5, CSS3, and Vanilla JavaScript.
+                    </p>
+                </div>
+
+                <div class="footer-nav">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-task">
+                    <h4>Project Info</h4>
+                    <p class="task-badge">ApnoAI Internship &bull; Task 1</p>
+                    <p class="task-desc">"Ship Your First Web Page" with responsive design and theme switching.</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Siva Sakthi. All rights reserved. Built for ApnoAI Internship Task 1.</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/sivasakthi2007" target="_blank" rel="noopener noreferrer" aria-label="Siva Sakthi's GitHub Profile">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Scroll back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+
+    <!-- Project Detail Modal -->
+    <div id="project-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-project-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div>
+                    <span id="modal-project-category" class="modal-category">Category</span>
+                    <h3 id="modal-project-title" class="modal-title">Project Title</h3>
+                </div>
+                <button id="modal-close-btn" class="modal-close" aria-label="Close project modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="modal-meta-row">
+                    <div class="meta-item">
+                        <span class="meta-label">Status</span>
+                        <span id="modal-project-status" class="status-badge">Status</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Domain</span>
+                        <span id="modal-project-domain" class="meta-value">Domain</span>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h4 class="modal-section-heading">Overview</h4>
+                    <p id="modal-project-desc" class="modal-text">Description goes here.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h4 class="modal-section-heading">Problem Addressed</h4>
+                    <div class="problem-callout">
+                        <p id="modal-project-problem" class="modal-text">Problem description goes here.</p>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h4 class="modal-section-heading">Core Capabilities &amp; Features</h4>
+                    <ul id="modal-project-features" class="modal-feature-list">
+                        <!-- Populated dynamically via JS -->
+                    </ul>
+                </div>
+
+                <div class="modal-section">
+                    <h4 class="modal-section-heading">Technology Direction</h4>
+                    <div id="modal-project-tech" class="modal-tech-pills">
+                        <!-- Populated dynamically via JS -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer" id="modal-footer-actions">
+                <!-- Action buttons populated dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive Portfolio Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
