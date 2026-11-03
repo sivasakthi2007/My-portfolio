@@ -1331,7 +1331,8 @@ a {
     font-size: 0.925rem;
     font-weight: 500;
     color: var(--text-primary);
-    word-break: break-all;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .method-arrow {

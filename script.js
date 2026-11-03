@@ -432,7 +432,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!isValid) return;
 
             // Generate mailto link
-            const targetEmail = 'YOUR_EMAIL@gmail.com';
+            const targetEmail = 'sivasakthi20071234@gmail.com';
             const subject = encodeURIComponent(`[Portfolio Inquiry] ${subjectInput.value.trim()}`);
             const body = encodeURIComponent(
                 `Hello Siva Sakthi,\n\n${messageInput.value.trim()}\n\nBest regards,\n${nameInput.value.trim()}\n(${emailInput.value.trim()})`
